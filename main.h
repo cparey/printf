@@ -45,5 +45,5 @@ int printf_char(va_list val);
 int printf_string(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
-int get_flag(char s, flags_t *f)
+int get_flags(const char *format, int *i);
 #endif
